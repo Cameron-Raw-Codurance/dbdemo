@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cameronraw/code/c_sharp/dbdemo/console/console.csproj": {}
+    "/Users/codurance/repos/dbdemo/console/console.csproj": {}
   },
   "projects": {
-    "/Users/cameronraw/code/c_sharp/dbdemo/console/console.csproj": {
+    "/Users/codurance/repos/dbdemo/console/console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cameronraw/code/c_sharp/dbdemo/console/console.csproj",
+        "projectUniqueName": "/Users/codurance/repos/dbdemo/console/console.csproj",
         "projectName": "console",
-        "projectPath": "/Users/cameronraw/code/c_sharp/dbdemo/console/console.csproj",
-        "packagesPath": "/Users/cameronraw/.nuget/packages/",
-        "outputPath": "/Users/cameronraw/code/c_sharp/dbdemo/console/obj/",
+        "projectPath": "/Users/codurance/repos/dbdemo/console/console.csproj",
+        "packagesPath": "/Users/codurance/.nuget/packages/",
+        "outputPath": "/Users/codurance/repos/dbdemo/console/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/cameronraw/.nuget/NuGet/NuGet.Config"
+          "/Users/codurance/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -29,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/cameronraw/code/c_sharp/dbdemo/dbdemo_project/dbdemo_project.csproj": {
-                "projectPath": "/Users/cameronraw/code/c_sharp/dbdemo/dbdemo_project/dbdemo_project.csproj"
+              "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj": {
+                "projectPath": "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj"
               }
             }
           }
@@ -63,20 +60,17 @@
         }
       }
     },
-    "/Users/cameronraw/code/c_sharp/dbdemo/dbdemo_project/dbdemo_project.csproj": {
+    "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cameronraw/code/c_sharp/dbdemo/dbdemo_project/dbdemo_project.csproj",
+        "projectUniqueName": "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj",
         "projectName": "dbdemo_project",
-        "projectPath": "/Users/cameronraw/code/c_sharp/dbdemo/dbdemo_project/dbdemo_project.csproj",
-        "packagesPath": "/Users/cameronraw/.nuget/packages/",
-        "outputPath": "/Users/cameronraw/code/c_sharp/dbdemo/dbdemo_project/obj/",
+        "projectPath": "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj",
+        "packagesPath": "/Users/codurance/.nuget/packages/",
+        "outputPath": "/Users/codurance/repos/dbdemo/dbdemo_project/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/cameronraw/.nuget/NuGet/NuGet.Config"
+          "/Users/codurance/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

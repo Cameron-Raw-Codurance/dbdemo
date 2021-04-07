@@ -10,3 +10,15 @@
 /Users/cameronraw/code/c_sharp/dbdemo/dbdemo_project/obj/Debug/net5.0/dbdemo_project.dll
 /Users/cameronraw/code/c_sharp/dbdemo/dbdemo_project/obj/Debug/net5.0/ref/dbdemo_project.dll
 /Users/cameronraw/code/c_sharp/dbdemo/dbdemo_project/obj/Debug/net5.0/dbdemo_project.pdb
+/Users/codurance/repos/dbdemo/dbdemo_project/bin/Debug/net5.0/dbdemo_project.deps.json
+/Users/codurance/repos/dbdemo/dbdemo_project/bin/Debug/net5.0/dbdemo_project.dll
+/Users/codurance/repos/dbdemo/dbdemo_project/bin/Debug/net5.0/ref/dbdemo_project.dll
+/Users/codurance/repos/dbdemo/dbdemo_project/bin/Debug/net5.0/dbdemo_project.pdb
+/Users/codurance/repos/dbdemo/dbdemo_project/obj/Debug/net5.0/dbdemo_project.csprojAssemblyReference.cache
+/Users/codurance/repos/dbdemo/dbdemo_project/obj/Debug/net5.0/dbdemo_project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/codurance/repos/dbdemo/dbdemo_project/obj/Debug/net5.0/dbdemo_project.AssemblyInfoInputs.cache
+/Users/codurance/repos/dbdemo/dbdemo_project/obj/Debug/net5.0/dbdemo_project.AssemblyInfo.cs
+/Users/codurance/repos/dbdemo/dbdemo_project/obj/Debug/net5.0/dbdemo_project.csproj.CoreCompileInputs.cache
+/Users/codurance/repos/dbdemo/dbdemo_project/obj/Debug/net5.0/dbdemo_project.dll
+/Users/codurance/repos/dbdemo/dbdemo_project/obj/Debug/net5.0/ref/dbdemo_project.dll
+/Users/codurance/repos/dbdemo/dbdemo_project/obj/Debug/net5.0/dbdemo_project.pdb

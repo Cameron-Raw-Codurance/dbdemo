@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Linq;
 using Dapper;
 
 namespace dbdemo_project
@@ -9,19 +10,54 @@ namespace dbdemo_project
         public void CreateConnection()
         {
             string connectionString = @"Server=localhost,1433;Database=Master;User Id=SA;Password=Yggdrasil1989";
-            //string connectionString = @"Persist Security Info=False;User ID=sa;Password=Yggdrasil1989;Initial Catalog=RawData;Server=rawdata.db";
 
-            Video rickAndMorty = new Video
+            using var connection = new SqlConnection(connectionString);
+            Video video = new Video
             {
                 Title = "Rick and Morty",
                 SeasonNo = 1,
                 EpisodeNo = 3,
                 IsTvShow = true
             };
-            using (var connection = new SqlConnection(connectionString))
+
+            connection.Execute("INSERT INTO GETFLIX.VIDEO VALUES(@title, @seasonno, @episodeno, @istvshow)", new
             {
-                connection.Execute("INSERT INTO GETFLIX.VIDEO VALUES(@title, @seasonno, @episodeno, @istvshow)", new { video = rickAndMorty } );
-            }
+                title = video.Title,
+                seasonno = video.SeasonNo,
+                episodeno = video.EpisodeNo,
+                istvshow = video.IsTvShow
+            });
+
+            var videos = connection.Query<Video>("SELECT * from GETFLIX.VIDEO");
+            Audio audio = new Audio
+            {
+                Url = "url",
+                VideoId = videos.First().Id
+            };
+
+            connection.Execute("INSERT INTO GETFLIX.AUDIO VALUES(@url, @video_id)", new
+            {
+                url = audio.Url,
+                video_id = audio.VideoId
+            });
+
+            Subtitle sub = new Subtitle
+            {
+                Url = "url",
+                VideoId = videos.First().Id
+            };
+
+            connection.Execute("INSERT INTO GETFLIX.SUBTITLE VALUES(@url, @video_id)", new
+            {
+                url = sub.Url,
+                video_id = sub.VideoId
+            });
+
+            connection.Execute("INSERT INTO GETFLIX.SUBTITLE VALUES(@url, @video_id)", new
+            {
+                url = "different url",
+                video_id = sub.VideoId
+            });
         }
     }
 
@@ -38,11 +74,13 @@ namespace dbdemo_project
     {
         public int Id;
         public string Url;
+        public int VideoId;
     }
 
     public class Subtitle
     {
         public int Id;
         public string Url;
+        public int VideoId;
     }
 }

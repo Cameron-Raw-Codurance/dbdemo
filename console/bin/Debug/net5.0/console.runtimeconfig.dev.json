@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/cameronraw/.dotnet/store/|arch|/|tfm|",
-      "/Users/cameronraw/.nuget/packages",
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "/Users/codurance/.dotnet/store/|arch|/|tfm|",
+      "/Users/codurance/.nuget/packages"
     ]
   }
 }
