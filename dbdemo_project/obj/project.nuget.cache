@@ -1,19 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "y9o1w+RGkBSi1iKDfQwF9fqhmLwxsmOs7DNdNfZcCwrYzNmT1cki2yuvMMSHI8D3OTMmj7wIwAwUQwtVoUAHRA==",
+  "dgSpecHash": "pwDCSWe2jhki2jSdLHU2iaLN93oxw4aFGs4B+4oTwDr9RSkIdM+dKppPXBXA+S8ExRapbHHKQinus5qjniofzQ==",
   "success": true,
-  "projectFilePath": "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj",
+  "projectFilePath": "/Users/andrasdako/codurance/Academy-code/Week_6/dbdemo/dbdemo_project/dbdemo_project.csproj",
   "expectedPackageFiles": [
-    "/Users/codurance/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
-    "/Users/codurance/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "/Users/codurance/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "/Users/codurance/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
-    "/Users/codurance/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "/Users/codurance/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "/Users/codurance/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "/Users/codurance/.nuget/packages/system.data.sqlclient/4.8.2/system.data.sqlclient.4.8.2.nupkg.sha512",
-    "/Users/codurance/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "/Users/codurance/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
+    "/Users/andrasdako/.nuget/packages/dapper/2.0.78/dapper.2.0.78.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/dapperextensions/1.6.3/dapperextensions.1.6.3.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/system.data.sqlclient/4.8.2/system.data.sqlclient.4.8.2.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/Users/andrasdako/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DapperExtensions 1.6.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DapperExtensions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

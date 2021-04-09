@@ -11,6 +11,18 @@
           "lib/net5.0/Dapper.dll": {}
         }
       },
+      "DapperExtensions/1.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "1.12.0"
+        },
+        "compile": {
+          "lib/net45/DapperExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DapperExtensions.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -158,6 +170,21 @@
         "lib/net5.0/Dapper.xml",
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "DapperExtensions/1.6.3": {
+      "sha512": "KrmiZVbSu8NcjcdteDfuLKEES8ZA/HOHyDO4n5Gvc2CuSxulaRaEPofr0zCH7LM/yevi2gSnA5GlOGYj8Ayd6w==",
+      "type": "package",
+      "path": "dapperextensions/1.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapperextensions.1.6.3.nupkg.sha512",
+        "dapperextensions.nuspec",
+        "lib/net40/DapperExtensions.dll",
+        "lib/net40/DapperExtensions.pdb",
+        "lib/net45/DapperExtensions.dll",
+        "lib/net45/DapperExtensions.pdb"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
@@ -477,23 +504,24 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Dapper >= 2.0.78",
+      "DapperExtensions >= 1.6.3",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
   "packageFolders": {
-    "/Users/codurance/.nuget/packages/": {}
+    "/Users/andrasdako/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj",
+      "projectUniqueName": "/Users/andrasdako/codurance/Academy-code/Week_6/dbdemo/dbdemo_project/dbdemo_project.csproj",
       "projectName": "dbdemo_project",
-      "projectPath": "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj",
-      "packagesPath": "/Users/codurance/.nuget/packages/",
-      "outputPath": "/Users/codurance/repos/dbdemo/dbdemo_project/obj/",
+      "projectPath": "/Users/andrasdako/codurance/Academy-code/Week_6/dbdemo/dbdemo_project/dbdemo_project.csproj",
+      "packagesPath": "/Users/andrasdako/.nuget/packages/",
+      "outputPath": "/Users/andrasdako/codurance/Academy-code/Week_6/dbdemo/dbdemo_project/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/codurance/.nuget/NuGet/NuGet.Config"
+        "/Users/andrasdako/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -521,6 +549,10 @@
             "target": "Package",
             "version": "[2.0.78, )"
           },
+          "DapperExtensions": {
+            "target": "Package",
+            "version": "[1.6.3, )"
+          },
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.2, )"
@@ -544,5 +576,17 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DapperExtensions 1.6.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DapperExtensions",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

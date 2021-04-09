@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj": {}
+    "/Users/andrasdako/codurance/Academy-code/Week_6/dbdemo/dbdemo_project/dbdemo_project.csproj": {}
   },
   "projects": {
-    "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj": {
+    "/Users/andrasdako/codurance/Academy-code/Week_6/dbdemo/dbdemo_project/dbdemo_project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj",
+        "projectUniqueName": "/Users/andrasdako/codurance/Academy-code/Week_6/dbdemo/dbdemo_project/dbdemo_project.csproj",
         "projectName": "dbdemo_project",
-        "projectPath": "/Users/codurance/repos/dbdemo/dbdemo_project/dbdemo_project.csproj",
-        "packagesPath": "/Users/codurance/.nuget/packages/",
-        "outputPath": "/Users/codurance/repos/dbdemo/dbdemo_project/obj/",
+        "projectPath": "/Users/andrasdako/codurance/Academy-code/Week_6/dbdemo/dbdemo_project/dbdemo_project.csproj",
+        "packagesPath": "/Users/andrasdako/.nuget/packages/",
+        "outputPath": "/Users/andrasdako/codurance/Academy-code/Week_6/dbdemo/dbdemo_project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/codurance/.nuget/NuGet/NuGet.Config"
+          "/Users/andrasdako/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -41,6 +41,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.78, )"
+            },
+            "DapperExtensions": {
+              "target": "Package",
+              "version": "[1.6.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

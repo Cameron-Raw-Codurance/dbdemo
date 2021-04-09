@@ -1,7 +1,7 @@
-﻿using System;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 using System.Linq;
 using Dapper;
+using dbdemo_project.entity;
 
 namespace dbdemo_project
 {
@@ -59,28 +59,5 @@ namespace dbdemo_project
                 video_id = sub.VideoId
             });
         }
-    }
-
-    public class Video
-    {
-        public int Id;
-        public string Title;
-        public int SeasonNo;
-        public int EpisodeNo;
-        public bool IsTvShow;
-    }
-
-    public class Audio
-    {
-        public int Id;
-        public string Url;
-        public int VideoId;
-    }
-
-    public class Subtitle
-    {
-        public int Id;
-        public string Url;
-        public int VideoId;
     }
 }
